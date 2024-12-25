@@ -2,7 +2,7 @@
 #define SORT_H
 
 // Bubble Sort
-void bubbleSort(int* arr, int size);
+void bubbleSort(int* arr, int size, bool asc);
 
 // Selection Sort
 void selectionSort(int* arr, int size);
