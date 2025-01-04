@@ -1,19 +1,14 @@
 #ifndef SORT_H
 #define SORT_H
 
-// Bubble Sort
 void bubbleSort(int* arr, int size, bool asc);
 
-// Selection Sort
 void selectionSort(int* arr, int size);
 
-// Insertion Sort
 void insertionSort(int* arr, int size);
 
-// Merge Sort
-void mergeSort(int* arr, int size);
+void mergeSort(int* arr, int left, int right);
 
-// Quick Sort
-void quickSort(int* arr, int size);
+void quickSort(int* arr, int low, int high);
 
 #endif //SORT_H
