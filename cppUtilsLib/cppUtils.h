@@ -5,5 +5,6 @@
 #include "sort.h"
 #include "printers.h"
 #include "arrUtils.h"
+#include "Tools.h"
 
 #endif

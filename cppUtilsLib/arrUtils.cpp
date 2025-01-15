@@ -31,3 +31,20 @@ int binarySearch(int* arr, int size, int x) {
 	}
 	return -1;
 }
+
+int linearSearch(int* arr, int size, int number) {
+	for (int i = 0; i <= size; i++) {
+		if (arr[i] == number) {
+			return i;
+		}
+	}
+	return -1;
+}
+
+int* createMass(int size) {
+	int* arr = new int[size];
+	for (int i = 0; i < size; i++) {
+		arr[i] = i;
+	}
+	return arr;
+}

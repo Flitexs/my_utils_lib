@@ -11,4 +11,4 @@ void mergeSort(int* arr, int left, int right);
 
 void quickSort(int* arr, int low, int high);
 
-#endif //SORT_H
+#endif
